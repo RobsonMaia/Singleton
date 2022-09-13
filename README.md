@@ -1,6 +1,6 @@
 # Singleton
 > Exemplo do padrão Singleton
-```
+
  Singleton é um padrão de projeto criacional que permite a você garantir que uma classe tenha apenas uma instância, enquanto provê um ponto de acesso global para essa instância.
  Neste exemplo, a classe de conexão com a base de dados age como um Singleton. Essa classe não tem um construtor público, então a única maneira de obter seu objeto é chamando o método getInstance. Esse método coloca o primeiro objeto criado em cache e o retorna em todas as chamadas subsequentes.
 # Como implementar
@@ -15,4 +15,4 @@
 5.Vá para o código cliente e substitua todas as chamadas diretas para o construtor do singleton com chamadas para seu método de criação estático.
  # Sugestão de uso.
  Utilize o padrão Singleton quando uma classe em seu programa deve ter apenas uma instância disponível para todos seus clientes; por exemplo, um objeto de base de dados único compartilhado por diferentes partes do programa.
-```
+
